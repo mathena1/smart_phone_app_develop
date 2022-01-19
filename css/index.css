@@ -1,0 +1,96 @@
+@charset "utf-8";
+html {
+    font-size: 62.5%;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.5;
+    color: rgb(73, 72, 72);
+    font-size: 1.6rem; 
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+    text-align: center;
+    background-image: url(../img/topimg2.JPG);
+    background-size: cover;
+}
+header, footer, h1, h2, h3, p, div, .container01, .filler01 {
+    margin: 0.5em 0em 0em 0em;
+    padding: 0.1em;
+}
+h1 {
+    font: 2em Rajdhani, "Noto Sans JP";
+    color: rgb(181, 242, 252);
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+}
+h2 {
+    padding-left: 0.5em;
+    border-left: solid 0.5em darkgray;
+    text-align: left;
+}
+.wrapper {
+    position: relative;
+    max-width: 100vw; 
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 23px;
+    text-align: center;
+}
+.container01 {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0.5em;
+    width: 80%;
+    border-radius: 0.5em 1.5em;
+    background-color:rgba(245, 245, 245, 0.6);
+    box-shadow:0 0 0.5em rgb(73, 72, 72);
+}
+main > p {
+    font: 1.2em bold;
+}
+a {
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.7;
+    background: #8cae47;
+}
+.game {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    font-size: 0.7em;
+}
+.spacer {
+    width: 100%;
+}
+footer> p {
+    position: absolute;
+    bottom: 5px; 
+    width: 100%;
+    margin: 0px;
+    padding: 1px;
+    color: whitesmoke;
+    font: 1em Rajdhani;
+    text-align: center;
+    background: rgba(1, 24, 31, 0.7);
+}
+
+.game img {
+    width: 40px;
+    height: 40px;
+}
+.item_01 {
+    width: 120px;
+    height: 90px;
+}
+@media screen and (max-width: 480px) {
+}
